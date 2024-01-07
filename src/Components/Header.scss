@@ -1,0 +1,37 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  //align-items: center;
+  padding: 20px 0;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  //align-items: center;
+  gap: 380px;
+
+}
+ .header-nav  {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-decoration: none;
+   list-style: none;
+   gap: 80px;
+   font-weight: 400;
+   font-family: Noto+Serif;
+   color: #2C2C2C;
+   text-align: center;
+   font-size: 18px;
+   font-style: normal;
+   line-height: normal;
+
+ }
+ .header-icons {
+   display: flex;
+   gap: 20px;
+   text-align: center;
+ }
+
+
+

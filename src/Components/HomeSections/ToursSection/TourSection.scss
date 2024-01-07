@@ -1,0 +1,53 @@
+.tour-section {
+  margin-top: 325px;
+  &__container {
+    max-width: 88rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+  &__item {
+    &-option-item:nth-child(1) {
+      margin-top: 90px;
+    }
+    &-title {
+      color: #2C2C2C;
+      font-size: 48px;
+      font-weight: 800;
+      font-family: Noto+Serif;
+      font-style: normal;
+
+    }
+  }
+  .col-8 {
+    .tour-section__item-option-item {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      &-text-title {
+        border-bottom: 1px solid #F1E0DD;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: Noto+Serif;
+      }
+    }
+  }
+}
+
+.user-icon {
+  padding: 15px;
+  border-radius: 10px;
+  background: #FF715B;
+}
+
+.world-icon {
+  padding: 15px;
+  border-radius: 10px;
+  background: #EDFAE3;
+}
+
+.headphones-icon {
+  padding: 15px;
+  border-radius: 10px;
+  background: #FFF8E3;
+
+}
